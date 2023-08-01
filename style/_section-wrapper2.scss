@@ -1,0 +1,47 @@
+section-wrapper2 {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1449px;
+        margin: 0 auto;
+    }
+
+    .cooker_title{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    span {
+        color: #000;
+        font-family: 'Tinos', serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    span2 {
+        font-family: 'Tinos', serif;
+        color: #D67E34;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .cooker{
+        gap: 28px;
+        display: grid;
+        display: flex;
+        margin-top: 107px;
+        margin-left: 165px;
+    }
+
+    .restaurant{
+        margin-top: 100px;
+    }
+}

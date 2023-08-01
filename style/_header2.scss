@@ -1,0 +1,65 @@
+header2 {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1449px;
+        margin: 0 auto;
+    }
+
+    .background {
+        width: 1440px;
+        height: 550px;
+        background: #E5E5E5;
+    }
+
+    .back_text {
+        position: absolute;
+        margin-left: 260px;
+        margin-top: 104px;
+        max-width: 920px;
+        color: #000;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .foto {
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    .foto_title {
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .foto_title2 {
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        margin-top: 9px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .fotografiya{
+        position: absolute;
+        margin-top:231px;
+        margin-left: 656px;
+    }
+}

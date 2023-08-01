@@ -1,0 +1,72 @@
+section {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1449px;
+        margin: 0 auto;
+    }
+
+    span {
+        color: #000;
+        font-family: 'Tinos', serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    span2 {
+        color: #D67E34;
+        font-family: 'Tinos', serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .section_title {
+        text-align: center;
+        margin-top: 132px;
+    }
+
+    .pizzas {
+        display: flex;
+        margin-left: 165px;
+        margin-top: 143px;
+    }
+
+    .rating_title {
+        color: #000;
+        font-family: 'Tinos', serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 30px;
+    }
+
+    .a{
+        display: flex;
+        align-items: center;
+    }
+
+    .b{
+        display: flex;
+        align-items: center;
+        margin-top: 29px;
+    }
+
+    .c{
+        display: flex;
+        align-items: center;
+        margin-top: 29px;
+    }
+    .small_pizza{
+        margin-left: 20px;
+    
+    }
+}

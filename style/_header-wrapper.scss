@@ -1,0 +1,83 @@
+header-wrapper {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1449px;
+        margin: 0 auto;
+    }
+
+    .delicious {
+        background-image: url(./images/bg.svg);
+        background-position: center;
+        background-size: cover;
+        width: 1440px;
+        height: 357px;
+    }
+
+    .del_title {
+        color: #D67E34;
+        font-family: 'Tinos', serif;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 601px;
+    }
+
+    .del_text {
+        color: #FFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    .btn {
+        width: 157px;
+        height: 47px;
+        background: #FF7400;
+        color: #FFF;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 3px;
+        position: relative;
+        transition: all 500ms ease;
+        margin-top: 155px;
+        margin-left: 331px;
+    }
+
+    .btn:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 47px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+        transition: all 1s ease;
+    }
+
+    .btn:hover:before{
+        width: 100%;
+    }
+
+    .delicious{
+        display: flex;
+    }
+
+    .restourant{
+        margin-top: 80px;
+        margin-left: 165px;
+    }
+}

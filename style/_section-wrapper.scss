@@ -1,0 +1,154 @@
+section-wrapper {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1449px;
+        margin: 0 auto;
+    }
+
+    .bar {
+        background-image: url(./images/bar.svg);
+        background-position: center;
+        background-size: cover;
+        max-width: 1440px;
+        height: 1036px;
+        margin-top: 152px;
+    }
+
+    .bar_title {
+        position: absolute;
+        color: #FFF;
+        text-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: 'Tinos', serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 589px;
+        margin-top: 98px;
+    }
+
+    .background {
+        width: 350px;
+        height: 510px;
+        background: #ffffff;
+    }
+
+    .btn {
+        width: 124px;
+        height: 36px;
+        background: #D67E34;
+        color: #000;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+    }
+
+    .burger {
+        background-image: url(./images/burger.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 225px;
+        height: 225px;
+        margin-top: 44px;
+        margin-left: 62px;
+    }
+
+    .oval {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #D67E34;
+        border-radius: 50%;
+        border: 7px solid white;
+        color: #FFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 28px;
+        line-height: normal;
+        margin-top: 125px;
+        margin-left: 130px;
+    }
+
+    .burger_title {
+        color: #000;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .burger_text {
+        position: absolute;
+        color: #000;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 200px;
+        margin-top: 17px;
+        margin-left: 75px;
+    }
+
+    .button {
+        width: 220px;
+        height: 50px;
+        background:  #D67E34;
+        box-shadow: 5px 5px 10px 0px ;
+        border: none;
+        border-radius: 3px;
+        margin-top: 74px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: relative;
+        transition: all 500ms ease;
+    }
+
+    .button:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+        transition: all 1s ease;
+    }
+
+    .button:hover:before{
+        width: 100%;
+    }
+
+    .burger_420{
+        margin-top: 291px;
+        text-align: center;
+    }
+
+    .burgers{
+        display: flex;
+        margin-top: 298px;
+        position: absolute;
+        margin-left: 166px;
+        gap: 30px;
+    }
+}
